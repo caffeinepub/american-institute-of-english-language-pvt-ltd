@@ -152,11 +152,12 @@ export default function App() {
               className="flex flex-col leading-tight"
               data-ocid="nav.link"
             >
-              <span className="text-xs font-semibold tracking-[0.2em] text-gray-400 uppercase">
-                The
+              <span className="text-sm font-black tracking-tight text-inst-black uppercase leading-tight">
+                American Institute Of{" "}
+                <span className="text-inst-red">English Language</span>
               </span>
-              <span className="text-lg lg:text-xl font-black tracking-tight text-inst-black uppercase">
-                English <span className="text-inst-red">Workshop</span>
+              <span className="text-xs font-semibold tracking-wide text-gray-400 uppercase">
+                Pvt Ltd
               </span>
             </a>
 
@@ -297,7 +298,7 @@ export default function App() {
                 variants={itemVariants}
                 className="text-sm text-gray-400 mb-8 uppercase tracking-widest font-medium"
               >
-                — THE ENGLISH WORKSHOP —
+                — AMERICAN INSTITUTE OF ENGLISH LANGUAGE PVT LTD —
               </motion.p>
 
               <motion.div
@@ -355,7 +356,7 @@ export default function App() {
               <div className="relative rounded-2xl overflow-hidden border-2 border-inst-red/30 shadow-2xl">
                 <img
                   src="/assets/generated/students-hero.dim_600x500.jpg"
-                  alt="Students at The English Workshop"
+                  alt="Students at American Institute Of English Language Pvt Ltd"
                   className="w-full max-w-lg object-cover"
                 />
                 {/* Floating badge */}
@@ -721,8 +722,8 @@ export default function App() {
               />
               <div className="relative text-center px-8">
                 <MapPin size={48} className="text-inst-red mx-auto mb-3" />
-                <h3 className="font-black text-xl text-inst-black uppercase mb-1">
-                  THE ENGLISH WORKSHOP
+                <h3 className="font-black text-base text-inst-black uppercase mb-1 leading-tight">
+                  AMERICAN INSTITUTE OF ENGLISH LANGUAGE PVT LTD
                 </h3>
                 <p className="text-sm text-gray-500">
                   CH2F+G3H, Didwana, Rajasthan 341303
@@ -798,11 +799,12 @@ export default function App() {
             {/* Brand */}
             <div>
               <div className="flex flex-col leading-tight mb-4">
-                <span className="text-xs font-semibold tracking-[0.2em] text-gray-500 uppercase">
-                  The
+                <span className="text-sm font-black tracking-tight text-white uppercase leading-tight">
+                  American Institute Of{" "}
+                  <span className="text-inst-red">English Language</span>
                 </span>
-                <span className="text-xl font-black tracking-tight text-white uppercase">
-                  English <span className="text-inst-red">Workshop</span>
+                <span className="text-xs font-semibold tracking-wide text-gray-500 uppercase">
+                  Pvt Ltd
                 </span>
               </div>
               <p className="text-sm text-gray-400 leading-relaxed max-w-xs">
@@ -876,7 +878,8 @@ export default function App() {
 
           <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
             <p className="text-xs text-gray-500">
-              © {year} The English Workshop. All rights reserved.
+              © {year} American Institute Of English Language Pvt Ltd. All
+              rights reserved.
             </p>
             <p className="text-xs text-gray-600">
               Built with ❤️ using{" "}
